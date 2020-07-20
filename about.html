@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" media="screen" title="light"/>
+	<link rel="shortcut icon" href="{Favicon}">
+
+	<title>SINoALICE Art</title>
+
+</head>
+
+<body>
+
+	<div id="header">
+		<h1><a href="/">SINoALICE Art</a></h1>
+		<h2>Character Art</h2>
+		<hr/>
+	</div>
+
+	<div class="navbar" id="myNavbar">
+		<a href="/">Home</a>
+		<a href="about">About</a>
+		<div class="dropdown">
+			<button class="dropbtn">Characters
+				<i class="droptent"></i>
+			</button>
+				<div class="dropdown-content">
+					<a href="alice">Alice</a>
+					<a href="snow">Snow White</a>
+					<a href="red">Red Riding Hood</a>
+					<a href="cinder">Cinderella</a>
+					<a href="pino">Pinocchio</a>
+					<a href="mermaid">Little Mermaid</a>
+					<a href="gretel">Gretel</a>
+					<a href="briar">Briar Rose</a>
+					<a href="kaguya">Kaguya</a>
+					<a href="dorothy">Dorothy</a>
+					<a href="nutcracker">Nutcracker</a>
+					<a href="piggies">Three Little Piggies</a>
+					<a href="aladdin">Aladdin</a>
+					<a href="rapunzel">Rapunzel</a>
+					<a href="hamelin">Hamelin</a>
+					<a href="collab">Collab</a>
+				</div>
+		</div>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+
+	<div id="content">
+		<h3>About</h3>
+		<p>about</p>
+	</div>
+
+	<br>
+
+	<div id="footer">
+	<hr>
+		<p>
+			Compiled by <a href="https://twitter.com/RainItzal" target="_blank">Rain Itzal</a>
+			<br>
+			Images provided by <a href="https://sinoalice.game-db.tw/" target="_blank">SINoALICE database</a>
+		</p>
+	</div>
+
+	<script>
+	function myFunction() {
+		var x = document.getElementById("myNavbar");
+		if (x.className === "navbar") {
+			x.className += " responsive";
+		} else {
+			x.className = "navbar";
+		}
+	}
+	</script>
+
+</body>
+
+</html>
