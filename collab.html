@@ -1,0 +1,326 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" media="screen" title="light"/>
+	<link rel="shortcut icon" href="{Favicon}">
+
+	<title>SINoALICE Art</title>
+
+</head>
+
+<body>
+
+	<div id="header">
+		<h1><a href="index">SINoALICE Art</a></h1>
+		<h2>Character Art</h2>
+		<hr/>
+	</div>
+
+	<div class="navbar" id="myNavbar">
+		<a href="index">Home</a>
+		<a href="about">About</a>
+		<div class="dropdown">
+			<button class="dropbtn">Characters
+				<i class="droptent"></i>
+			</button>
+				<div class="dropdown-content">
+					<a href="alice">Alice</a>
+					<a href="snow">Snow White</a>
+					<a href="red">Red Riding Hood</a>
+					<a href="cinder">Cinderella</a>
+					<a href="pino">Pinocchio</a>
+					<a href="mermaid">Little Mermaid</a>
+					<a href="gretel">Gretel</a>
+					<a href="briar">Briar Rose</a>
+					<a href="kaguya">Kaguya</a>
+					<a href="dorothy">Dorothy</a>
+					<a href="nutcracker">Nutcracker</a>
+					<a href="piggies">Three Little Piggies</a>
+					<a href="aladdin">Aladdin</a>
+					<a href="rapunzel">Rapunzel</a>
+					<a href="hamelin">Hamelin</a>
+					<a href="collab">Collab</a>
+				</div>
+		</div>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+
+	<div id="content">
+		<h3>Collaboration Characters</h3>
+		<div id="buttons">
+			<div class="drpdwn">
+				<button class="drpbtn">NieR:Automata
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage1();">2B (Breaker)</button><br>
+						<button onclick="changeImage5();">2B (Crusher)</button><br>
+						<button onclick="changeImage2();">9S (Paladin)</button><br>
+						<button onclick="changeImage3();">A2 (Breaker)</button><br>
+						<button onclick="changeImage4();">Emil (Cleric)</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Drakengard 3
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage6();">Zero (Breaker)</button><br>
+						<button onclick="changeImage7();">Zero (Cleric)</button><br>
+						<button onclick="changeImage8();">One (Breaker)</button><br>
+						<button onclick="changeImage9();">Accord (Sorcerer)</button><br>
+						<button onclick="changeImage10();">Boy Mikhail (Paladin)</button><br>
+						<button onclick="changeImage17();">Two (Breaker)</button><br>
+						<button onclick="changeImage18();">Three (Breaker)</button><br>
+						<button onclick="changeImage19();">Four (Crusher)</button><br>
+						<button onclick="changeImage20();">Five (Paladin)</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">NieR RepliCant
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage11();">Young Nier (Sorcerer)</button><br>
+						<button onclick="changeImage12();">Nier (Paladin)</button><br>
+						<button onclick="changeImage13();">Kaine (Breaker)</button><br>
+						<button onclick="changeImage14();">Young Emil (Mage)</button><br>
+						<button onclick="changeImage15();">Devola &amp; Popola (Cleric)</button><br>
+						<button onclick="changeImage16();">Emil Clone (Minstrel)</button><br>
+						<button onclick="changeImage37();">King of Facade &amp; Fyra (Paladin)</button><br>
+						<button onclick="changeImage38();">Yonah (Sorcerer)</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Code Geass: Lelouch of the Rebellion
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage21();">Suzaku (Breaker)</button><br>
+						<button onclick="changeImage22();">Lelouch (Sorcerer)</button><br>
+						<button onclick="changeImage23();">C.C. (Minstrel)</button><br>
+						<button onclick="changeImage24();">Euphemia (Cleric)</button><br>
+						<button onclick="changeImage25();">Kallen (Crusher)</button><br>
+						<button onclick="changeImage26();">The Masked Man, Zero (Gunner)</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Final Fantasy Brave Exvius
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage27();">Rain (Breaker)</button><br>
+						<button onclick="changeImage28();">Fina &amp; Dark Fina (Gunner)</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Re:Zero − Starting Life in Another World
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage29();">Natsuki Subaru (Sorcerer)</button><br>
+						<button onclick="changeImage34();">Natsuki Subaru (Sorcerer) 2</button><br>
+						<button onclick="changeImage30();">Emilia (Cleric)</button><br>
+						<button onclick="changeImage31();">Ram (Paladin)</button><br>
+						<button onclick="changeImage32();">Rem (Crusher)</button><br>
+						<button onclick="changeImage33();">Reinhard (Breaker)</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">GEMS COMPANY
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage35();">Hoshina Hinaka (Crusher)</button><br>
+						<button onclick="changeImage36();">Hoshina Hinaka (Crusher) 2</button><br>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		
+		<img id='images' src=''/>
+	</div>
+
+	<br>
+
+	<script>
+	function myFunction() {
+		var x = document.getElementById("myNavbar");
+		if (x.className === "navbar") {
+			x.className += " responsive";
+		} else {
+			x.className = "navbar";
+		}
+	}
+	</script>
+	<script>
+	function changeImage1() {
+		let img1 = 'images/036.png';
+		document.getElementById('images').src = img1;
+	}
+	function changeImage2() {
+		let img2 = 'images/037.png';
+		document.getElementById('images').src = img2;
+	}
+	function changeImage3() {
+		let img3 = 'images/038.png';
+		document.getElementById('images').src = img3;
+	}
+	function changeImage4() {
+		let img4 = 'images/039.png';
+		document.getElementById('images').src = img4;
+	}
+	function changeImage5() {
+		let img5 = 'images/040.png';
+		document.getElementById('images').src = img5;
+	}
+	
+	function changeImage6() {
+		let img6 = 'images/070.png';
+		document.getElementById('images').src = img6;
+	}
+	function changeImage7() {
+		let img7 = 'images/071.png';
+		document.getElementById('images').src = img7;
+	}
+	function changeImage8() {
+		let img8 = 'images/072.png';
+		document.getElementById('images').src = img8;
+	}
+	function changeImage9() {
+		let img9 = 'images/073.png';
+		document.getElementById('images').src = img9;
+	}
+	function changeImage10() {
+		let img10 = 'images/074.png';
+		document.getElementById('images').src = img10;
+	}
+	
+	function changeImage11() {
+		let img11 = 'images/157.png';
+		document.getElementById('images').src = img11;
+	}
+	function changeImage12() {
+		let img12 = 'images/158.png';
+		document.getElementById('images').src = img12;
+	}
+	function changeImage13() {
+		let img13 = 'images/159.png';
+		document.getElementById('images').src = img13;
+	}
+	function changeImage14() {
+		let img14 = 'images/160.png';
+		document.getElementById('images').src = img14;
+	}
+	function changeImage15() {
+		let img15 = 'images/161.png';
+		document.getElementById('images').src = img15;
+	}
+	function changeImage16() {
+		let img16 = 'images/162.png';
+		document.getElementById('images').src = img16;
+	}
+	
+	function changeImage17() {
+		let img17 = 'images/200.png';
+		document.getElementById('images').src = img17;
+	}
+	function changeImage18() {
+		let img18 = 'images/201.png';
+		document.getElementById('images').src = img18;
+	}
+	function changeImage19() {
+		let img19 = 'images/202.png';
+		document.getElementById('images').src = img19;
+	}
+	function changeImage20() {
+		let img20 = 'images/203.png';
+		document.getElementById('images').src = img20;
+	}
+	
+	function changeImage21() {
+		let img21 = 'images/207.png';
+		document.getElementById('images').src = img21;
+	}
+	function changeImage22() {
+		let img22 = 'images/208.png';
+		document.getElementById('images').src = img22;
+	}
+	function changeImage23() {
+		let img23 = 'images/209.png';
+		document.getElementById('images').src = img23;
+	}
+	function changeImage24() {
+		let img24 = 'images/210.png';
+		document.getElementById('images').src = img24;
+	}
+	function changeImage25() {
+		let img25 = 'images/211.png';
+		document.getElementById('images').src = img25;
+	}
+	function changeImage26() {
+		let img26 = 'images/212.png';
+		document.getElementById('images').src = img26;
+	}
+	
+	function changeImage27() {
+		let img27 = 'images/222.png';
+		document.getElementById('images').src = img27;
+	}
+	function changeImage28() {
+		let img28 = 'images/223.png';
+		document.getElementById('images').src = img28;
+	}
+	
+	function changeImage29() {
+		let img29 = 'images/242.png';
+		document.getElementById('images').src = img29;
+	}
+	function changeImage30() {
+		let img30 = 'images/243.png';
+		document.getElementById('images').src = img30;
+	}
+	function changeImage31() {
+		let img31 = 'images/244.png';
+		document.getElementById('images').src = img31;
+	}
+	function changeImage32() {
+		let img32 = 'images/245.png';
+		document.getElementById('images').src = img32;
+	}
+	function changeImage33() {
+		let img33 = 'images/246.png';
+		document.getElementById('images').src = img33;
+	}
+	function changeImage34() {
+		let img34 = 'images/249.png';
+		document.getElementById('images').src = img34;
+	}
+	
+	function changeImage35() {
+		let img35 = 'images/304.png';
+		document.getElementById('images').src = img35;
+	}
+	function changeImage36() {
+		let img36 = 'images/317.png';
+		document.getElementById('images').src = img36;
+	}
+	
+	function changeImage37() {
+		let img37 = 'images/331.png';
+		document.getElementById('images').src = img37;
+	}
+	function changeImage38() {
+		let img38 = 'images/332.png';
+		document.getElementById('images').src = img38;
+	}
+	</script>
+
+</body>
+
+</html>
