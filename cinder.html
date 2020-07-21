@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" media="screen" title="light"/>
+	<link rel="shortcut icon" href="{Favicon}">
+
+	<title>SINoALICE Art</title>
+
+</head>
+
+<body>
+
+	<div id="header">
+		<h1><a href="index">SINoALICE Art</a></h1>
+		<h2>Character Art</h2>
+		<hr/>
+	</div>
+
+	<div class="navbar" id="myNavbar">
+		<a href="index">Home</a>
+		<a href="about">About</a>
+		<div class="dropdown">
+			<button class="dropbtn">Characters
+				<i class="droptent"></i>
+			</button>
+				<div class="dropdown-content">
+					<a href="alice">Alice</a>
+					<a href="snow">Snow White</a>
+					<a href="red">Red Riding Hood</a>
+					<a href="cinder">Cinderella</a>
+					<a href="pino">Pinocchio</a>
+					<a href="mermaid">Little Mermaid</a>
+					<a href="gretel">Gretel</a>
+					<a href="briar">Briar Rose</a>
+					<a href="kaguya">Kaguya</a>
+					<a href="dorothy">Dorothy</a>
+					<a href="nutcracker">Nutcracker</a>
+					<a href="piggies">Three Little Piggies</a>
+					<a href="aladdin">Aladdin</a>
+					<a href="rapunzel">Rapunzel</a>
+					<a href="hamelin">Hamelin</a>
+					<a href="collab">Collab</a>
+				</div>
+		</div>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+
+	<div id="content">
+		<h3>Cinderella</h3>
+		<div id="buttons">
+			<div class="drpdwn">
+				<button class="drpbtn">Breaker
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage3();">Breaker</button><br>
+						<button onclick="changeImage13();">Proud Lion Breaker</button><br>
+						<button onclick="changeImage21();">-Mother-</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Crusher
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage4();">Crusher</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Gunner
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage1();">Gunner</button><br>
+						<button onclick="changeImage9();">Alternative</button><br>
+						<button onclick="changeImage10();">Envious Serpent Gunner</button><br>
+						<button onclick="changeImage12();">Half-Nightmare</button><br>
+						<button onclick="changeImage15();">Alternative 2</button><br>
+						<button onclick="changeImage17();">-Mizugi-</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Paladin
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage7();">Paladin</button><br>
+						<button onclick="changeImage14();">Greedy Crow Paladin</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Sorcerer
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage2();">Sorcerer</button><br>
+						<button onclick="changeImage6();">Kimono</button><br>
+						<button onclick="changeImage18();">Gluttonous Tiger Sorcerer</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Minstrel
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage5();">Minstrel</button><br>
+						<button onclick="changeImage11();">Halloween</button><br>
+						<button onclick="changeImage16();">-Luxury-</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Cleric
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage8();">Cleric</button><br>
+						<button onclick="changeImage19();">Lustful Scorpion Cleric</button><br>
+						<button onclick="changeImage20();">-Kafun-</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Mage
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+					</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		
+		<img id='images' src=''/>
+	</div>
+
+	<br>
+
+	<script>
+	function myFunction() {
+		var x = document.getElementById("myNavbar");
+		if (x.className === "navbar") {
+			x.className += " responsive";
+		} else {
+			x.className = "navbar";
+		}
+	}
+	</script>
+	<script>
+	function changeImage1() {
+		let img1 = 'images/004.png';
+		document.getElementById('images').src = img1;
+	}
+	function changeImage2() {
+		let img2 = 'images/012.png';
+		document.getElementById('images').src = img2;
+	}
+	function changeImage3() {
+		let img3 = 'images/021.png';
+		document.getElementById('images').src = img3;
+	}
+	function changeImage4() {
+		let img4 = 'images/035.png';
+		document.getElementById('images').src = img4;
+	}
+	function changeImage5() {
+		let img5 = 'images/053.png';
+		document.getElementById('images').src = img5;
+	}
+	function changeImage6() {
+		let img6 = 'images/067.png';
+		document.getElementById('images').src = img6;
+	}
+	function changeImage7() {
+		let img7 = 'images/069.png';
+		document.getElementById('images').src = img7;
+	}
+	function changeImage8() {
+		let img8 = 'images/089.png';
+		document.getElementById('images').src = img8;
+	}
+	function changeImage9() {
+		let img9 = 'images/090.png';
+		document.getElementById('images').src = img9;
+	}
+	function changeImage10() {
+		let img10 = 'images/118.png';
+		document.getElementById('images').src = img10;
+	}
+	function changeImage11() {
+		let img11 = 'images/130.png';
+		document.getElementById('images').src = img11;
+	}
+	function changeImage12() {
+		let img12 = 'images/139.png';
+		document.getElementById('images').src = img12;
+	}
+	function changeImage13() {
+		let img13 = 'images/156.png';
+		document.getElementById('images').src = img13;
+	}
+	function changeImage14() {
+		let img14 = 'images/185.png';
+		document.getElementById('images').src = img14;
+	}
+	function changeImage15() {
+		let img15 = 'images/192.png';
+		document.getElementById('images').src = img15;
+	}
+	function changeImage16() {
+		let img16 = 'images/197.png';
+		document.getElementById('images').src = img16;
+	}
+	function changeImage17() {
+		let img17 = 'images/215.png';
+		document.getElementById('images').src = img17;
+	}
+	function changeImage18() {
+		let img18 = 'images/266.png';
+		document.getElementById('images').src = img18;
+	}
+	function changeImage19() {
+		let img19 = 'images/279.png';
+		document.getElementById('images').src = img19;
+	}
+	function changeImage20() {
+		let img20 = 'images/291.png';
+		document.getElementById('images').src = img20;
+	}
+	function changeImage21() {
+		let img21 = 'images/312.png';
+		document.getElementById('images').src = img21;
+	}
+	</script>
+
+</body>
+
+</html>
