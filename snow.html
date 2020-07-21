@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" media="screen" title="light"/>
+	<link rel="shortcut icon" href="{Favicon}">
+
+	<title>SINoALICE Art</title>
+
+</head>
+
+<body>
+
+	<div id="header">
+		<h1><a href="index">SINoALICE Art</a></h1>
+		<h2>Character Art</h2>
+		<hr/>
+	</div>
+
+	<div class="navbar" id="myNavbar">
+		<a href="index">Home</a>
+		<a href="about">About</a>
+		<div class="dropdown">
+			<button class="dropbtn">Characters
+				<i class="droptent"></i>
+			</button>
+				<div class="dropdown-content">
+					<a href="alice">Alice</a>
+					<a href="snow">Snow White</a>
+					<a href="red">Red Riding Hood</a>
+					<a href="cinder">Cinderella</a>
+					<a href="pino">Pinocchio</a>
+					<a href="mermaid">Little Mermaid</a>
+					<a href="gretel">Gretel</a>
+					<a href="briar">Briar Rose</a>
+					<a href="kaguya">Kaguya</a>
+					<a href="dorothy">Dorothy</a>
+					<a href="nutcracker">Nutcracker</a>
+					<a href="piggies">Three Little Piggies</a>
+					<a href="aladdin">Aladdin</a>
+					<a href="rapunzel">Rapunzel</a>
+					<a href="hamelin">Hamelin</a>
+					<a href="collab">Collab</a>
+				</div>
+		</div>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+
+	<div id="content">
+		<h3>Alice</h3>
+		<div id="buttons">
+			<div class="drpdwn">
+				<button class="drpbtn">Breaker
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage1();">Breaker</button><br>
+						<button onclick="changeImage14();">X-mas</button><br>
+						<button onclick="changeImage19();">Proud Lion Half-Nightmare</button><br>
+						<button onclick="changeImage20();">Proud Lion Breaker</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Crusher
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage3();">Crusher</button><br>
+						<button onclick="changeImage16();">Wrath Wolf Crusher</button><br>
+						<button onclick="changeImage22();">Travelers</button><br>
+						<button onclick="changeImage28();">Divine Temperance Crusher</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Gunner
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage7();">Half-Nightmare</button><br>
+						<button onclick="changeImage9();">Gunner</button><br>
+						<button onclick="changeImage11();">-Mizugi-</button><br>
+						<button onclick="changeImage26();">-3rdAnniv.-</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Paladin
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage4();">Paladin</button><br>
+						<button onclick="changeImage13();">Greedy Crow Paladin</button><br>
+						<button onclick="changeImage18();">Grand Prix(H31)</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Sorcerer
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage8();">Sorcerer</button><br>
+						<button onclick="changeImage12();">Alternative</button><br>
+						<button onclick="changeImage21();">Gluttonous Tiger Sorcerer</button><br>
+						<button onclick="changeImage23();">Valentine</button><br>
+						<button onclick="changeImage24();">Alternative 2</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Minstrel
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage5();">Minstrel</button><br>
+						<button onclick="changeImage15();">Kimono</button><br>
+						<button onclick="changeImage25();">Sloth Bear Minstrel</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Cleric
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage2();">Cleric</button><br>
+						<button onclick="changeImage6();">Tuna Cleric</button><br>
+						<button onclick="changeImage17();">Lustful Scorpion Cleric</button><br>
+						<button onclick="changeImage27();">Grand Prix(R02)</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Mage
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage10();">Mage</button><br>
+					</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		
+		<img id='images' src=''/>
+	</div>
+
+	<br>
+
+	<script>
+	function myFunction() {
+		var x = document.getElementById("myNavbar");
+		if (x.className === "navbar") {
+			x.className += " responsive";
+		} else {
+			x.className = "navbar";
+		}
+	}
+	</script>
+	<script>
+	function changeImage1() {
+		let img1 = 'images/002.png';
+		document.getElementById('images').src = img1;
+	}
+	function changeImage2() {
+		let img2 = 'images/010.png';
+		document.getElementById('images').src = img2;
+	}
+	function changeImage3() {
+		let img3 = 'images/017.png';
+		document.getElementById('images').src = img3;
+	}
+	function changeImage4() {
+		let img4 = 'images/046.png';
+		document.getElementById('images').src = img4;
+	}
+	function changeImage5() {
+		let img5 = 'images/059.png';
+		document.getElementById('images').src = img5;
+	}
+	function changeImage6() {
+		let img6 = 'images/061.png';
+		document.getElementById('images').src = img6;
+	}
+	function changeImage7() {
+		let img7 = 'images/064.png';
+		document.getElementById('images').src = img7;
+	}
+	function changeImage8() {
+		let img8 = 'images/076.png';
+		document.getElementById('images').src = img8;
+	}
+	function changeImage9() {
+		let img9 = 'images/082.png';
+		document.getElementById('images').src = img9;
+	}
+	function changeImage10() {
+		let img10 = 'images/097.png';
+		document.getElementById('images').src = img10;
+	}
+	function changeImage11() {
+		let img11 = 'images/111.png';
+		document.getElementById('images').src = img11;
+	}
+	function changeImage12() {
+		let img12 = 'images/128.png';
+		document.getElementById('images').src = img12;
+	}
+	function changeImage13() {
+		let img13 = 'images/132.png';
+		document.getElementById('images').src = img13;
+	}
+	function changeImage14() {
+		let img14 = 'images/143.png';
+		document.getElementById('images').src = img14;
+	}
+	function changeImage15() {
+		let img15 = 'images/148.png';
+		document.getElementById('images').src = img15;
+	}
+	function changeImage16() {
+		let img16 = 'images/164.png';
+		document.getElementById('images').src = img16;
+	}
+	function changeImage17() {
+		let img17 = 'images/179.png';
+		document.getElementById('images').src = img17;
+	}
+	function changeImage18() {
+		let img18 = 'images/194.png';
+		document.getElementById('images').src = img18;
+	}
+	function changeImage19() {
+		let img19 = 'images/195.png';
+		document.getElementById('images').src = img19;
+	}
+	function changeImage20() {
+		let img20 = 'images/206.png';
+		document.getElementById('images').src = img20;
+	}
+	function changeImage21() {
+		let img21 = 'images/227.png';
+		document.getElementById('images').src = img21;
+	}
+	function changeImage22() {
+		let img22 = 'images/257.png';
+		document.getElementById('images').src = img22;
+	}
+	function changeImage23() {
+		let img23 = 'images/282.png';
+		document.getElementById('images').src = img23;
+	}
+	function changeImage24() {
+		let img24 = 'images/295.png';
+		document.getElementById('images').src = img24;
+	}
+	function changeImage25() {
+		let img25 = 'images/305.png';
+		document.getElementById('images').src = img25;
+	}
+	function changeImage26() {
+		let img26 = 'images/323.png';
+		document.getElementById('images').src = img26;
+	}
+	function changeImage27() {
+		let img27 = 'images/329.png';
+		document.getElementById('images').src = img27;
+	}
+	function changeImage28() {
+		let img28 = 'images/335.png';
+		document.getElementById('images').src = img28;
+	}
+	</script>
+
+</body>
+
+</html>
