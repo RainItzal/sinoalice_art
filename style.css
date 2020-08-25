@@ -73,7 +73,7 @@ body {
 	text-align: left;
 }
 .navbar a:hover, .dropdown:hover, .dropbtn {
-	background-color: #ee76df;
+	background-color: #ee7676;
 	color: black;
 }
 .dropdown-content a:hover {
@@ -166,7 +166,7 @@ body {
 	text-decoration: none;
 }
 #header a:hover {
-	color: #c92222;
+	color: #ac0404;
 }
 #header img {
 	margin: auto;
