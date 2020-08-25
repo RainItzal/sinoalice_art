@@ -51,13 +51,71 @@
 	</div>
 
 	<div id="content">
-		<h3>About</h3>
-		<p>I wanted a place to just show all the job art. And, yeah...</p>
-		<p>
-			Compiled by <a href="https://twitter.com/RainItzal" target="_blank">Rain Itzal</a>.
-			<br>
-			Images provided by <a href="https://sinoalice.game-db.tw/" target="_blank">SINoALICE database</a>.
-		</p>
+		<h3>Little Match Girl</h3>
+		<div id="buttons">
+			<div class="drpdwn">
+				<button class="drpbtn">Breaker
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Crusher
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Gunner
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+						<button onclick="changeImage1();">Gunner</button><br>
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Paladin
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Sorcerer
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Minstrel
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Cleric
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+					</div>
+			</div>
+			<div class="drpdwn">
+				<button class="drpbtn">Mage
+					<i class="drptnt"></i>
+				</button>
+					<div class="drpdwn-content">
+					</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		
+		<img id='images' src=''/>
 	</div>
 
 	<br>
@@ -70,6 +128,12 @@
 		} else {
 			x.className = "navbar";
 		}
+	}
+	</script>
+	<script>
+	function changeImage1() {
+		let img1 = 'images/360.png';
+		document.getElementById('images').src = img1;
 	}
 	</script>
 
